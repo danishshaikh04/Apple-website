@@ -1,10 +1,13 @@
 import React from 'react'
+import { appleImg } from '../utils'
 
 const Navbar = () => {
   return (
-    <div>
-      
-    </div>
+    <header>
+      <nav>
+        <img src={appleImg} alt="apple" width={14} height={18}/> 
+      </nav>
+    </header>
   )
 }
 
